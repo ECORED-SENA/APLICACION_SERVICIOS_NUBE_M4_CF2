@@ -19,7 +19,11 @@
         figure
           img(src='@/assets/curso/imagen-tema3.svg', alt='Imagen decorativa')   
     
-    p CASE es una sigla, que corresponde a las iniciales de: Computer Aided Software Engineering; y en su traducción al español significa Ingeniería de Software Asistida por Computación.
+    p 
+      strong CASE 
+      | es una sigla, que corresponde a las iniciales de: 
+      strong Computer Aided Software Engineering
+      | ; y en su traducción al español significa Ingeniería de Software Asistida por Computación.
     p La tecnología CASE corresponde a la Ingeniería de software apoyado por computadora. Es un conjunto de herramientas de software para automatizar las tareas del desarrollo del software, la idea es facilitar un conjunto integrado de herramientas que enlazan y automatizan las fases del ciclo de vida del desarrollo del software. (Cuevas,1991).
     p.mb-5 Según (Pressman ,1998) los objetivos de las herramientas Case son:
 
@@ -123,13 +127,28 @@
                   strong Enlace web. 
                   | Herramientas CASE: Conoce otras herramientas CASE
 
-    p Los diagramas de clase se diagraman con las herramientas que hacen parte del grupo de Herramientas de alto nivel, U-CASE, entre las que encontramos StartUML, Lucichart, ArgoUML, MagicDraw.
+    p Los diagramas de clase se diagraman con las herramientas que hacen parte del grupo de 
+      strong Herramientas de alto nivel, U-CASE
+      | , entre las que encontramos 
+      span.cursiva StartUML, Lucichart, ArgoUML, MagicDraw.
     
-    p.mb-5 El manejo de cualquiera de estas herramientas es sencillo, a continuación, se mostrarán 	los pasos básicos para el manejo de StartUML.
+    p.mb-5 El manejo de cualquiera de estas herramientas es sencillo, a continuación, se mostrarán 	los pasos básicos para el manejo de 
+      span.cursiva StartUML.
   
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.mb-4
+      .col-lg-7.mb-4
+        a.anexo(href="https://youtu.be/7WRYH2ei5Rw" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p 
+              strong Enlace web. 
+              | Curso UML diagrama de clases: Profundiza en la creación de los diagramas de clase en 
+              span.cursiva StarUML
 
 
 </template>

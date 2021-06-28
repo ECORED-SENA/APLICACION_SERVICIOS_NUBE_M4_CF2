@@ -248,6 +248,12 @@ export default {
         cargo: 'Experto temático',
         centro: 'Centro de Gestión Industrial',
       },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -269,7 +275,7 @@ export default {
       },
       {
         nombre: 'Andrea Paola Botello De la Rosa',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -280,7 +286,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

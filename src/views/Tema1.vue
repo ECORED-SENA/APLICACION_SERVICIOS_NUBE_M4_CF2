@@ -11,7 +11,7 @@
     figure.mb-5
       img(src="@/assets/curso/banner-tema1.svg", alt="Computador con lenguaje de programación en la pantalla")  
 
-    p.mb-4 Los UML se consideran técnicas para la especificación de sistemas. En la siguiente presentación interactiva podrá conocer su definición y principales características. 
+    p.mb-4 Los UML se consideran técnicas para la especificación de sistemas. En la siguiente figura podrá conocer su definición y principales características. 
 
     figure.mb-5
       img(src="@/assets/curso/UML.svg", alt="UML")  
@@ -30,7 +30,8 @@
           img(src='@/assets/curso/infografia-tema1.svg', alt='Infografia sobre para que se usa el modelado en la construcciíon de software') 
 
 
-    p UML, es una técnica para la especificación de sistemas en todas sus fases. Nació en 1994 cubriendo los aspectos principales de todos los métodos de diseño antecesores y precisamente, los padres de UML son Grady Booch, autor del método Booch; James Rumbaugh, autor del método OMT e Ivar Jacobson, autor de los métodos OOSE y Objectory. La versión 1.0 de UML fue liberada en enero de 1997 y ha sido utilizado con éxito en sistemas construidos para toda clase de industrias alrededor del mundo: hospitales, bancos, comunicaciones, aeronáutica, finanzas, etc. (2009, March 04).
+    p El UML, está compuesto por diversos elementos gráficos que se combinan para conformar diagramas. Entre los diagramas que existen en UML, se tienen el diagrama de clase que hace parte de los diagramas de estructura, los cuales enfatizan los elementos que deben existir en el sistema de modelado. 
+
 
 </template>
 

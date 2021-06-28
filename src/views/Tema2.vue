@@ -22,7 +22,7 @@
               figure
                 img(src="@/assets/curso/imagen-tema2.svg", alt="Imagen decorativa") 
 
-    p El objetivo de un diagrama de clase es representar las clases que conforman el modelo de un determinado sistema, el diagrama de clase se construye y se refina durante las fases de análisis y diseño, y tomado como referencia en la implementación del sistema.
+    p El objetivo de un diagrama de clase es representar las clases que conforman el modelo de un determinado sistema, el diagrama de clase se construye y se refina durante las fases de análisis y diseño, y se toma como referencia en la implementación del sistema.
 
     p.mb-5 Hay tres perspectivas diferentes en las cuales se pueden utilizar los diagramas de clase:            
 
@@ -62,7 +62,7 @@
               figure
                 img(src='@/assets/curso/modelado-3d.svg', alt='Clase')
             .col-xl-8
-              p Es la unidad básica que encapsula toda la información de un Objeto (un objeto es una instancia de una clase). A través de ella podemos modelar el entorno en estudio (una Casa, un Auto, una Cuenta Corriente, etc.).
+              p Es la unidad básica que encapsula toda la información de un Objeto (un objeto es una instancia de una clase). A través de ella podemos modelar el entorno en estudio (una casa, un auto, una cuenta corriente, etc.).
         
         .tarjeta.color-amarillo3.p-4(titulo="Atributos")
           .row.justify-content-center.align-items-center
@@ -80,7 +80,7 @@
             .col-xl-8
               p Los métodos u operaciones de una clase son la forma en cómo ésta interactúa con los datos.
 
-    p.mb-5 Los elementos que componen un diagrama de clase son:
+    p.mb-5 En UML, una clase es representada por un rectángulo que posee tres divisiones:
 
     .row.justify-content-center
       .col-lg-6
@@ -100,7 +100,7 @@
             p.mb-0 El rectángulo superior contiene el nombre de la clase.
           li 
             i.fas.fa-square
-            p.mb-0 Los atributos y las clases tienen características que definen el grado de comunicación y visibilidad de ellos con el entorno a lo que llamamos controles de acceso.
+            p.mb-0 El rectángulo intermedio contiene los atributos (o variables de instancia) que caracterizan a la clase.
           li 
             i.fas.fa-square
             p.mb-0 El rectángulo inferior contiene los métodos u operaciones, los cuales son la forma como interactúa el objeto con su entorno.
@@ -157,7 +157,13 @@
             .col-xl-8
               p Se define un atributo o método protegido cuando sólo se quiere tener acceso a él desde la propia clase que lo define y las que heredan de él.
 
-    p Por ejemplo, se puede representar una clase denominada Producto que contiene 3 atributos (código de tipo entero, nombre de tipo String y precio de tipo double) y 2 métodos (obtenerPrecio y calcularTotal), de la siguiente manera:
+    p Por ejemplo, se puede representar una clase denominada 
+      strong Producto 
+      | que contiene 3 atributos (
+      strong código de tipo entero, nombre de tipo String y precio de tipo double
+      | ) y 2 métodos (
+      strong obtenerPrecio y calcularTotal
+      | ), de la siguiente manera:
     p.mb-4 Se observa que todos los atributos en esta clase son privados porque tienen el símbolo – y los métodos son públicos porque tienen el símbolo +      
 
     .row.justify-content-center
@@ -168,7 +174,7 @@
           img.mb-2(src='@/assets/curso/2-1-figura2.svg', alt='Representación de la clase Producto en UML') 
           figcaption Fuente: SENA, 2021
 
-    h3 Relaciones entre clases.
+    h3 Relaciones entre clases
 
     .row.mb-2
       .col-lg-7.mb-3
@@ -220,7 +226,7 @@
               span.text-bold 4
             p 
               strong Multiplicidad: 
-              | Representan el número de instancias de la clase que pueden ser partícipes en el proceso de asociación con respecto a una instancia particular de la otra clase vinculada en la relación. (Schmuller, 2001)
+              | representan el número de instancias de la clase que pueden ser partícipes en el proceso de asociación con respecto a una instancia particular de la otra clase vinculada en la relación. (Schmuller, 2001)
 
     p.mb-4 A continuación, se presentan algunos ejemplos gráficos.
 
@@ -232,9 +238,27 @@
           img.mb-2(src='@/assets/curso/2-1-figura3.svg', alt='Ejemplo de asociación') 
           figcaption Fuente: SENA, 2021
 
-    p En el ejemplo de la figura 3, se pueden observar 3 diferentes ejemplos de asociación entre la clase A y la clase B, en todos los ejemplos la Clase A asume el rolA en el contexto de asociación, mientras que la clase B asume el rolB en el contexto de la relación. 
-    p Adicionalmente, se puede observar que los dos primeros ejemplos tienen navegabilidad unidireccional, lo cual representa que la relación se establece en un solo sentido. En el primer caso la Asociación1 vincula la clase B como origen y la clase A como destino, en el segundo caso se vincula con la asociación2 a la clase A como origen con la clase B como destino y en el último ejemplo el vínculo es bidireccional, es decir en los dos sentidos, desde A hacia B y desde B hacia A.
-    p.mb-4 Por ejemplo, se puede representar una clase denominada Figura que contiene dos atributos (lado1 y lado2) y 3 métodos (método constructor Figura, método área y método perímetro), de la siguiente manera:
+    p En el ejemplo anterior, se pueden observar 3 diferentes ejemplos de asociación entre la clase A y la clase B, en todos los ejemplos la Clase A asume el 
+      span.cursiva rolA 
+      | en el contexto de asociación, mientras que la clase B asume el 
+      span.cursiva rolB 
+      | en el contexto de la relación. 
+    p Adicionalmente, se puede observar que los dos primeros ejemplos tienen navegabilidad unidireccional, lo cual representa que la relación se establece en un solo sentido. En el primer caso la 
+      span.cursiva Asociación1 
+      | vincula la clase B como origen y la clase A como destino, en el segundo caso se vincula con la 
+      span.cursiva Asociación2 
+      | a la clase A como origen con la clase B como destino y en el último ejemplo el vínculo es bidireccional, es decir en los dos sentidos, desde A hacia B y desde B hacia A.
+    p Una relación de asociación debe tener como mínimo tres elementos: (I) nombre de la asociación, (II) navegabilidad y (III) multiplicidad. Respecto a la multiplicidad esta representa la cantidad numérica de instancias de las clases que participan en la relación, aunque este puede ser cualquier número normalmente se acostumbra a utilizar el valor de 1 o * cuando son varias instancias las participantes.
+    p Para facilitar el proceso de entendimiento y lectura se debe tener en cuenta la navegabilidad. Siempre se lee tomando como referencia 
+      strong.cursiva un 
+      | ejemplar de la clase desde donde se origina la asociación respecto al valor 
+      strong.cursiva N 
+      | de instancias del otro extremo de la asociación, este valor N es la multiplicidad en el otro extremo.
+    p.mb-4 Por ejemplo, se puede representar una clase denominada 
+      strong Figura 
+      | que contiene dos atributos (lado1 y lado2) y 3 métodos (método constructor 
+      strong Figura
+      | , método área y método perímetro), de la siguiente manera:
 
     .row.justify-content-center
       .col-lg-8
@@ -244,8 +268,24 @@
           img.mb-2(src='@/assets/curso/2-1-figura4.svg', alt='Ejemplo de variaciones de asociación entre clases') 
           figcaption Fuente: SENA, 2021
 
-    p Adicionalmente, se puede observar que los dos primeros ejemplos tienen navegabilidad unidireccional, lo cual representa que la relación se establece en un solo sentido. En el primer caso la Asociación1 vincula la clase B como origen y la clase A como destino, en el segundo caso se vincula con la asociación2 a la clase A como origen con la clase B como destino y en el último ejemplo el vínculo es bidireccional, es decir en los dos sentidos, desde A hacia B y desde B hacia A.
-    p En la misma figura, el segundo ejemplo se lee de la siguiente forma: Un aprendiz es evaluado por un instructor. En el último ejemplo de esta gráfica se representa una relación bidireccional, es decir, se hacen dos lecturas desde cada extremo, en este caso un instructor comparte con muchos aprendices y un aprendiz comparte con un instructor.
+    p En el ejemplo anterior, se presentan tres variaciones de relaciones de asociación entre la clase instructor y la clase aprendiz, en todos los tres casos la navegabilidad varía dependiendo de lo que se está representando en la relación por medio de su nombre. En el primer caso es una relación de asociación llamada Enseña con navegabilidad desde Instructor hacia Aprendiz indicando que 
+      strong.cursiva un 
+      | instructor enseña a 
+      strong.cursiva varios 
+      | aprendices.
+    p En el segundo caso se lee de la siguiente forma: 
+      strong un 
+      | aprendiz es evaluado por 
+      strong un 
+      | instructor. En el último caso de esta gráfica se representa una relación bidireccional, es decir, se hacen dos lecturas desde cada extremo, en este ejemplo 
+      strong.cursiva un 
+      | instructor comparte con 
+      strong.cursiva muchos 
+      | aprendices y 
+      strong.cursiva un 
+      | aprendiz comparte con 
+      strong un 
+      | instructor.
 
 
     Separador
@@ -258,7 +298,11 @@
     .row.mb-2
       .col-lg-7.mb-3
         p La herencia es una de las relaciones más comunes en la práctica del paradigma orientado a objetos y como se mencionó en el componente formativo anterior se puede construir relaciones partiendo desde conceptos (clases) generales a conceptos (clases) específicos (especialización) o desde conceptos específicos hacia conceptos generales (generalización), (Schmuller, 2001).
-        p Es un tipo especial de asociación donde se tienen clases principales o superclas es (las más generales en la relación) y clases secundarias o subclases (las clases más especializadas),   implícitamente es una relación que vincula a un ejemplar de tipo superclase y un ejemplar de tipo subclase, por lo anterior no se colocan nombre ni multiplicidad a este tipo de relación. 
+        p Es un tipo especial de asociación donde se tienen clases principales o superclases (las más generales en la relación) y clases secundarias o subclases (las clases más especializadas), adicionalmente este tipo de relación tiene implícito el nombre 
+          strong.cursiva es un 
+          | o 
+          strong.cursiva es una 
+          | y también implícitamente es una relación que vincula a un ejemplar de tipo superclase y un ejemplar de tipo subclase, por lo anterior no se colocan nombre ni multiplicidad a este tipo de relación.
         p En una relación de herencia las subclases heredan las características (atributos) y los comportamientos (métodos) de las superclases.
       .col-lg-5
         figure
@@ -272,18 +316,41 @@
           img.mb-2(src='@/assets/curso/2-3-figura5.svg', alt='Ejemplo de herencia') 
           figcaption Fuente: SENA, 2021
 
-    p En la figura anterior, se representa una relación de herencia entre siete (7) diferentes clases. Las clases supertipo están en los niveles superiores de la jerarquía y representan las clases más generales cuyas definiciones serán heredadas por las subclases. En las relaciones de herencia se pueden presentar varios niveles, en cada nivel existirá la correspondiente superclase y subclases. Note que no existe nombre en las relaciones porque implícitamente es una relación de tipo es un o es una que se lee desde las subclases hacia las superclases y siempre en relaciones de uno a uno.
-    p En el ejemplo, Una Camioneta es un VehículoTerrestre, el cual a la vez es un Vehículo. El VehículoTerrestre hereda todas las características y comportamientos del Vehículo y a su vez la clase Camioneta hereda todas las características y comportamientos de la clase VehículoTerrestre. De manera indirecta la clase Camioneta está heredando las características y comportamientos de la clase Vehículo por estar en la misma línea de herencia. La clase Barco no está heredando las características de la clase VehículoTerrestre ya que no está en la misma línea de herencia.
-    p.mb-4 Existen dos tipos de herencia dependiendo de la cantidad de clases supertipo directas asociadas, si una clase hereda características de una sola supertipo, es una relación de herencia simple; si una clase hereda características de más de una clase supertipo, es una relación de herencia múltiple.
+    p En la figura anterior, se representa una relación de herencia entre siete (7) diferentes clases. Las clases supertipo están en los niveles superiores de la jerarquía y representan las clases más generales cuyas definiciones serán heredadas por las subclases. En las relaciones de herencia se pueden presentar varios niveles, en cada nivel existirá la correspondiente superclase y subclases. Note que no existe nombre en las relaciones porque implícitamente es una relación de tipo es 
+      strong.cursiva un 
+      | o es 
+      strong.cursiva una 
+      | que se lee desde las subclases hacia las superclases y siempre en relaciones de 
+      strong uno a uno.
+    p En el ejemplo, 
+      strong una 
+      | Camioneta es 
+      strong un 
+      | VehículoTerrestre, el cual a la vez es 
+      strong un 
+      | Vehículo. El VehículoTerrestre hereda todas las características y comportamientos del Vehículo y a su vez la clase Camioneta hereda todas las características y comportamientos de la clase VehículoTerrestre. De manera indirecta la clase Camioneta está heredando las características y comportamientos de la clase Vehículo por estar en la misma línea de herencia. La clase Barco no está heredando las características de la clase VehículoTerrestre ya que no está en la misma línea de herencia.
+    p.mb-4 Existen dos tipos de herencia dependiendo de la cantidad de clases supertipo directas asociadas, si una clase hereda características de 
+      strong una sola supertipo
+      | , es una relación de 
+      strong herencia simple
+      | ; si una clase hereda características de más de 
+      strong una clase supertipo
+      | , es una relación de 
+      strong herencia múltiple.
 
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido.titulo-img
-          h5 Ejemplo de herencia
+          h5 Ejemplo de herencia múltiple
         figure.mb-5
-          img.mb-2(src='@/assets/curso/2-3-figura6.svg', alt='Ejemplo de herencia') 
+          img.mb-2(src='@/assets/curso/2-3-figura6.svg', alt='Ejemplo de herencia múltiple') 
 
-    p En la anterior figura, se puede observar un diagrama de clases donde se presentan varias relaciones de herencia, para el caso de la clase VehiculoAnfibio se presenta un caso de herencia múltiple ya que esta clase está heredando características de dos clases supertipo directas diferentes: VehículoTerrestre y VehículoAcuatico.
+    p En el ejemplo de herencia múltiple, se puede observar un diagrama de clases donde se presentan varias relaciones de herencia, para el caso de la clase 
+      strong VehiculoAnfibio 
+      | se presenta un caso de herencia múltiple ya que esta clase está heredando características de dos clases supertipo directas diferentes: 
+      strong VehículoTerrestre 
+      | y 
+      strong VehículoAcuatico.
     p.mb-5 Solo algunos lenguajes de programación admiten la implementación de la herencia múltiple, entre los más conocidos encontramos: Python, Perl y C++, Sin embargo, otros lenguajes orientados a objetos implementan características similares a la herencia múltiple por medio de interfaces.
 
     h3 Visibilidad en las relaciones de herencia

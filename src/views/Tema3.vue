@@ -137,7 +137,7 @@
   
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fPbUqr49DYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-4
       .col-lg-7.mb-4
@@ -149,6 +149,7 @@
               strong Enlace web. 
               | Curso UML diagrama de clases: Profundiza en la creación de los diagramas de clase en 
               span.cursiva StarUML
+
 
 
 </template>

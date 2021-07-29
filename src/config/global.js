@@ -315,12 +315,6 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
-      },
-      {
         nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:

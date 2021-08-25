@@ -130,10 +130,10 @@
     p Los diagramas de clase se diagraman con las herramientas que hacen parte del grupo de 
       strong Herramientas de alto nivel, U-CASE
       | , entre las que encontramos 
-      span.cursiva StartUML, Lucichart, ArgoUML, MagicDraw.
+      span.cursiva StarUML, Lucichart, ArgoUML, MagicDraw.
     
     p.mb-5 El manejo de cualquiera de estas herramientas es sencillo, a continuación, se mostrarán 	los pasos básicos para el manejo de 
-      span.cursiva StartUML.
+      span.cursiva StarUML.
   
     figure.mb-5
       .video

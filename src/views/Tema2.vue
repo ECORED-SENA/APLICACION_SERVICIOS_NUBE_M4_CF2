@@ -78,7 +78,7 @@
               figure
                 img(src='@/assets/curso/flujo-de-trabajo.svg', alt='Métodos')
             .col-xl-8
-              p Los métodos u operaciones de una clase son la forma en cómo ésta interactúa con los datos.
+              p Los métodos u operaciones de una clase son la forma en cómo esta interactúa con los datos.
 
     p.mb-5 En UML, una clase es representada por un rectángulo que posee tres divisiones:
 
@@ -115,7 +115,7 @@
 
     // 2.1
     #t_2_1.titulo-segundo
-      .h2 2.1. Control de Acceso
+      .h2 2.1. Control de acceso
 
     p.mb-4 El 
       strong control de acceso 
@@ -155,7 +155,7 @@
               figure
                 img(src='@/assets/curso/escudo-seguro.svg', alt='Protegido')
             .col-xl-8
-              p Se define un atributo o método protegido cuando sólo se quiere tener acceso a él desde la propia clase que lo define y las que heredan de él.
+              p Se define un atributo o método protegido cuando solo se quiere tener acceso a él desde la propia clase que lo define y las que heredan de él.
 
     p Por ejemplo, se puede representar una clase denominada 
       strong Producto 

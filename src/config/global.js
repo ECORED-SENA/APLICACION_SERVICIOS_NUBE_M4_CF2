@@ -111,7 +111,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Cuevas,1991, Cuevas Agustín, Gonzalo,” Ingenieria del Software.Práctica de la programación”, Editorial RA-MA, 1 impresión,1991',
+        'Cuevas,1991, Cuevas Agustín, Gonzalo, “Ingeniería del Software. Práctica de la programación”, Editorial RA-MA, 1 impresión,1991',
     },
     {
       referencia:
@@ -131,7 +131,7 @@ export default {
     },
     {
       referencia:
-        'S. Pressman,1998 S. Pressman, Roger, “Ingeniería del Software.” Un enfoque práctico”, Editorial Mc. Grraw-Hill, 4ta edición,1998',
+        'S. Pressman,1998 S. Pressman, Roger, “Ingeniería del Software.” “Un enfoque práctico”, Editorial Mc. Grraw-Hill, 4ta edición,1998',
     },
     {
       referencia:

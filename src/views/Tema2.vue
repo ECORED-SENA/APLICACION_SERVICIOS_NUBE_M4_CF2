@@ -263,21 +263,23 @@
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.titulo-img
-          h5 Ejemplo de variaciones de asociación entre clases
+          p 
+            strong Figura 4. 
+            | Ejemplo de variaciones de asociación entre clases
         figure.mb-5
           img.mb-2(src='@/assets/curso/2-1-figura4.svg', alt='Ejemplo de variaciones de asociación entre clases') 
           figcaption Fuente: SENA, 2021
 
-    p En el ejemplo anterior, se presentan tres variaciones de relaciones de asociación entre la clase instructor y la clase aprendiz, en todos los tres casos la navegabilidad varía dependiendo de lo que se está representando en la relación por medio de su nombre. En el primer caso es una relación de asociación llamada Enseña con navegabilidad desde Instructor hacia Aprendiz indicando que 
+    p En el ejemplo anterior se presentan tres variaciones de relaciones de asociación entre la clase instructor y la clase aprendiz, en todos los tres casos la navegabilidad varía dependiendo de lo que se está representando en la relación por medio de su nombre. En el primer caso es una relación de asociación llamada Enseña con navegabilidad desde Instructor hacia Aprendiz indicando que
       strong.cursiva un 
       | instructor enseña a 
       strong.cursiva varios 
       | aprendices.
-    p En el segundo caso se lee de la siguiente forma: 
+    p En el segundo caso el segundo ejemplo se lee de la siguiente forma:
       strong un 
       | aprendiz es evaluado por 
       strong un 
-      | instructor. En el último caso de esta gráfica se representa una relación bidireccional, es decir, se hacen dos lecturas desde cada extremo, en este ejemplo 
+      | instructor. En el último ejemplo de esta gráfica se representa una relación bidireccional, es decir, se hacen dos lecturas desde cada extremo, en este caso
       strong.cursiva un 
       | instructor comparte con 
       strong.cursiva muchos 
@@ -345,9 +347,9 @@
         figure.mb-5
           img.mb-2(src='@/assets/curso/2-3-figura6.svg', alt='Ejemplo de herencia múltiple') 
 
-    p En el ejemplo de herencia múltiple, se puede observar un diagrama de clases donde se presentan varias relaciones de herencia, para el caso de la clase 
+    p En lel ejemplo de herencia múltiple, se puede observar un diagrama de clases donde se presentan varias relaciones de herencia, para el caso de la clase
       strong VehiculoAnfibio 
-      | se presenta un caso de herencia múltiple ya que esta clase está heredando características de dos clases supertipo directas diferentes: 
+      | se presenta un caso de herencia múltiple ya que esta clase está heredando características de dos clases supertipo directas diferentes:
       strong VehículoTerrestre 
       | y 
       strong VehículoAcuatico.
@@ -391,7 +393,7 @@
           img.mb-0(src='@/assets/curso/2-4-figura7.svg', alt='Ejemplo de relación de Agregación') 
           figcaption Fuente: SENA, 2021
 
-    p En la anterior figura, se muestra un ejemplo de relación de agregación, como se puede observar la clase Computador de escritorio se compone de un monitor, una torre, un teclado, un ratón y dos parlantes. A su vez la clase Torre se compone de varios discos duros, varias memorias, un procesador y una tarjeta de video.  Los elementos que son componentes en este diagrama pueden ser componentes de otras clases, además una instancia de los componentes puede ser reemplazado por otra fácilmente razón por la cual la relación que tienen con la clase agregada no es tan fuerte y por eso es una agregación.
+    p En la representación anterior, se muestra un ejemplo de relación de agregación; como se puede observar la clase Computador de escritorio se compone de un monitor, una torre, un teclado, un ratón y dos parlantes. A su vez la clase Torre se compone de varios discos duros, varias memorias, un procesador y una tarjeta de video.  Los elementos que son componentes en este diagrama pueden ser componentes de otras clases, además una instancia de los componentes puede ser reemplazado por otra fácilmente, razón por la cual la relación que tienen con la clase agregada no es tan fuerte y por eso es una agregación.
 
 
     Separador

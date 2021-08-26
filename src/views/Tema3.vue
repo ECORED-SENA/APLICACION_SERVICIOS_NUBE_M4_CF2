@@ -25,7 +25,7 @@
       strong Computer Aided Software Engineering
       | ; y en su traducción al español significa Ingeniería de Software Asistida por Computación.
     p La tecnología CASE corresponde a la Ingeniería de software apoyado por computadora. Es un conjunto de herramientas de software para automatizar las tareas del desarrollo del software, la idea es facilitar un conjunto integrado de herramientas que enlazan y automatizan las fases del ciclo de vida del desarrollo del software. (Cuevas,1991).
-    p.mb-5 Según (Pressman ,1998) los objetivos de las herramientas Case son:
+    p.mb-5 Según Pressman (1998) los objetivos de las herramientas Case son:
 
     .row.justify-content-center
       .col-lg-11
@@ -50,7 +50,7 @@
         .tarjeta.color-acento-contenido.tarjeta-sin-bordes
           .p-2.text-white.text-center 
             p.mb-0 
-              strong Herramientas de alto nivel, U-CASE
+              strong Herramientas de alto nivel, U-CASE 
               | (Upper CASE - CASE superior) o front-end 
         .tarjeta.color-amarillo3.tarjeta-sin-bordes2
           .p-3.text-center 
@@ -60,7 +60,7 @@
         .tarjeta.color-acento-contenido.tarjeta-sin-bordes
           .p-2.text-white.text-center 
             p.mb-0 
-              strong Herramientas de bajo nivel, L-CASE
+              strong Herramientas de bajo nivel, L-CASE 
               | (Lower CASE - CASE inferior) o back-end
         .tarjeta.color-amarillo3.tarjeta-sin-bordes2
           .p-3.text-center 
@@ -70,7 +70,7 @@
         .tarjeta.color-acento-contenido.tarjeta-sin-bordes
           .p-2.text-white.text-center 
             p.mb-0 
-              strong Juegos de herramientas o Tools-Case,
+              strong Juegos de herramientas o Tools-Case, 
               | son el tipo más simple de herramientas CASE.
         .tarjeta.color-amarillo3.tarjeta-sin-bordes2
           .p-3.text-center 
